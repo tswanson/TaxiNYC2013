@@ -14,20 +14,20 @@ Python script combines the data, normalized fields, cleans up outlyers.
 
 taxi.py uses XYcode.csv as input to link a zone(LGA or MN17) for easier analysis.  Zones are modified Neighborhood Tabulation Areas - http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml
 
-epoch - Trip start time, seconds since 1/1/1970
-hackID - normalized id for hack
-rateCode - rate code - see 
-passengerCount
-tripTimeSec
-distance - actual miles driven
-pickupLongitude - 
-pickupLatitude
-dropoffLongitude
-dropoffLatitude
-paymentType
-fareAmount
-tipAmount - Credit card transactions only
-tollsAmount 
-totalAmount
-pickup - Zone code (LGA, MN17)
-dropoff - Zone code (LGA, MN17)
+*epoch - Trip start time, seconds since 1/1/1970
+*hackID - normalized id for hack
+*rateCode - rate code - see 
+*passengerCount
+*tripTimeSec
+*distance - actual miles driven
+*pickupLongitude - 
+*pickupLatitude
+*dropoffLongitude
+*dropoffLatitude
+*paymentType
+*fareAmount
+*tipAmount - Credit card transactions only
+*tollsAmount 
+*totalAmount
+*pickup - Zone code (LGA, MN17)
+*dropoff - Zone code (LGA, MN17)
